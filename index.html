@@ -11887,7 +11887,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Second-Derivative">Second Derivative<a class="anchor-link" href="#Second-Derivative">&#182;</a></h3>$$f''(t) = \ddot f = \frac{d^2f(t)}{dt^2} = \frac{d}{dt}\left (\frac{df(x)}{dt} \right)$$
+<h3 id="Second-Derivative">Second Derivative<a class="anchor-link" href="#Second-Derivative">&#182;</a></h3>$$f''(t) = \ddot f = \frac{d^2f(t)}{dt^2} = \frac{d}{dt}\left (\frac{df(t)}{dt} \right)$$
 </div>
 </div>
 </div></div></section><section>
@@ -11967,8 +11967,8 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Answers:">Answers:<a class="anchor-link" href="#Answers:">&#182;</a></h2><h3 id="1">1<a class="anchor-link" href="#1">&#182;</a></h3>$$ f'(x)= $$<p></p>
-<h3 id="2">2<a class="anchor-link" href="#2">&#182;</a></h3>$$f'(x) = $$
+<h2 id="Answers:">Answers:<a class="anchor-link" href="#Answers:">&#182;</a></h2><h3 id="1">1<a class="anchor-link" href="#1">&#182;</a></h3>$$ f'(x)= \cos(x) - \sin(x) e^{\cos(x)} $$<p></p>
+<h3 id="2">2<a class="anchor-link" href="#2">&#182;</a></h3>$$f'(x) = \frac{x \cos(\sqrt{x^2 +2})}{\sqrt{x^2+2}} $$
 </div>
 </div>
 </div></section></section><section><section>
@@ -11977,7 +11977,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Integration">Integration<a class="anchor-link" href="#Integration">&#182;</a></h1><h3 id="Indefinite-Integral">Indefinite Integral<a class="anchor-link" href="#Indefinite-Integral">&#182;</a></h3>$$\int \sin(x) dx $$<h3 id="Definite-Integral">Definite Integral<a class="anchor-link" href="#Definite-Integral">&#182;</a></h3>$$ \int_a^b x^2\;\mathrm{d}x= \tfrac{1}{3} x^3 \Big|_a^b $$
+<h1 id="Integration">Integration<a class="anchor-link" href="#Integration">&#182;</a></h1><h3 id="Indefinite-Integral">Indefinite Integral<a class="anchor-link" href="#Indefinite-Integral">&#182;</a></h3>$$\int \sin(x) dx = -\cos(x) + C $$<h3 id="Definite-Integral">Definite Integral<a class="anchor-link" href="#Definite-Integral">&#182;</a></h3>$$ \int_1^5 x^2\;\mathrm{d}x= \tfrac{1}{3} x^3 \Big|_1^5 = \frac{124}{3}$$
 </div>
 </div>
 </div></section><section>
@@ -12022,7 +12022,8 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Your-Turn">Your Turn<a class="anchor-link" href="#Your-Turn">&#182;</a></h1><h3 id="1">1<a class="anchor-link" href="#1">&#182;</a></h3>$$\int \frac{1}{x} dx$$<h3 id="2">2<a class="anchor-link" href="#2">&#182;</a></h3>$$ \int^2 _1 \frac{1}{\sqrt{3x}} dx$$<h3 id="3">3<a class="anchor-link" href="#3">&#182;</a></h3>$$\int \frac{e^{\sqrt{x}}}{\sqrt{x}}dx$$
+<h1 id="Your-Turn">Your Turn<a class="anchor-link" href="#Your-Turn">&#182;</a></h1><h3 id="1">1<a class="anchor-link" href="#1">&#182;</a></h3>$$\int \frac{1}{x} dx$$<h3 id="2">2<a class="anchor-link" href="#2">&#182;</a></h3>$$ \int^2 _1 \frac{1}{\sqrt{3x}} dx$$<h3 id="3">3<a class="anchor-link" href="#3">&#182;</a></h3>$$\int \frac{e^{\sqrt{x}}}{\sqrt{x}}dx$$<p>Hint: $u = \sqrt{x}$</p>
+
 </div>
 </div>
 </div></section><section>
@@ -12031,7 +12032,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Answers">Answers<a class="anchor-link" href="#Answers">&#182;</a></h1><h3 id="1">1<a class="anchor-link" href="#1">&#182;</a></h3>$$\int \frac{1}{x} dx = \ln(x) + C$$<h3 id="2">2<a class="anchor-link" href="#2">&#182;</a></h3>$$ \int ^2 _1 \frac{1}{\sqrt{3x}} dx  =   $$<h3 id="3">3<a class="anchor-link" href="#3">&#182;</a></h3>$$\int \frac{e^{\sqrt{x}}}{\sqrt{x}}dx = $$
+<h1 id="Answers">Answers<a class="anchor-link" href="#Answers">&#182;</a></h1><h3 id="1">1<a class="anchor-link" href="#1">&#182;</a></h3>$$\int \frac{1}{x} dx = \ln(x) + C$$<h3 id="2">2<a class="anchor-link" href="#2">&#182;</a></h3>$$ \int ^2 _1 \frac{1}{\sqrt{3x}} dx  = \frac{2 \sqrt{x}}{\sqrt{3}} \Big|_1^2  \approx 0.478 $$<h3 id="3">3<a class="anchor-link" href="#3">&#182;</a></h3>$$\int \frac{e^{\sqrt{x}}}{\sqrt{x}}dx =  2 e^{\sqrt{x} }+ C$$
 </div>
 </div>
 </div></section></section><section><section>
@@ -12043,7 +12044,7 @@ a.anchor-link {
 <h1 id="Useful-Tools:">Useful Tools:<a class="anchor-link" href="#Useful-Tools:">&#182;</a></h1><ul>
 <li>Sympy or any other CAS:<ul>
 <li><a href="http://live.sympy.org/">http://live.sympy.org/</a></li>
-<li>Maple</li>
+<li>Maple: Available on-campus</li>
 </ul>
 </li>
 <li>Writing Reports:<ul>
