@@ -11825,6 +11825,63 @@ a.anchor-link {
 <div class="reveal">
 <div class="slides">
 <section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
+<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&lt;script&gt;</span>
+<span class="s1">    var code_show=true; //true -&gt; hide code at first</span>
+
+<span class="s1">    function code_toggle() {</span>
+<span class="s1">        $(&#39;div.prompt&#39;).hide(); // always hide prompt</span>
+
+<span class="s1">        if (code_show){</span>
+<span class="s1">            $(&#39;div.input&#39;).hide();</span>
+<span class="s1">        } else {</span>
+<span class="s1">            $(&#39;div.input&#39;).show();</span>
+<span class="s1">        }</span>
+<span class="s1">        code_show = !code_show</span>
+<span class="s1">    }</span>
+<span class="s1">    $( document ).ready(code_toggle);</span>
+<span class="s1">&lt;/script&gt;&#39;&#39;&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[26]:</div>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<script>
+    var code_show=true; //true -> hide code at first
+
+    function code_toggle() {
+        $('div.prompt').hide(); // always hide prompt
+
+        if (code_show){
+            $('div.input').hide();
+        } else {
+            $('div.input').show();
+        }
+        code_show = !code_show
+    }
+    $( document ).ready(code_toggle);
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -11839,7 +11896,7 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span>
@@ -11853,7 +11910,7 @@ a.anchor-link {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[14]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
@@ -12025,7 +12082,7 @@ pWkl/+oVUAAAAABJRU5ErkJggg==
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span>
@@ -12039,7 +12096,7 @@ pWkl/+oVUAAAAABJRU5ErkJggg==
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[16]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
@@ -12316,7 +12373,7 @@ RU5ErkJggg==
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span>
@@ -12330,7 +12387,7 @@ RU5ErkJggg==
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[13]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
@@ -12587,7 +12644,7 @@ AJ0h/AIA0BnCLwAAnSH8AgDQGcIvAACd8f8ASoR0tA/Yl7EAAAAASUVORK5CYII=
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ani</span>
@@ -12601,7 +12658,7 @@ AJ0h/AIA0BnCLwAAnSH8AgDQGcIvAACd8f8ASoR0tA/Yl7EAAAAASUVORK5CYII=
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[15]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[20]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <video width="432.0" height="288.0" controls autoplay loop>
@@ -12812,25 +12869,25 @@ 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
-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
+ZWR0cwAAABxlbHN0AAAAAAAAAAEAAB9AAAJZkgABAAAAAAXabWRpYQAAACBtZGhkAAAAAAAAAAAA
+AAAAAA6KOQB0UbtVxAAAAAAALWhkbHIAAAAAAAAAAHZpZGUAAAAAAAAAAAAAAABWaWRlb0hhbmRs
 ZXIAAAAFhW1pbmYAAAAUdm1oZAAAAAEAAAAAAAAAAAAAACRkaW5mAAAAHGRyZWYAAAAAAAAAAQAA
 AAx1cmwgAAAAAQAABUVzdGJsAAAAsXN0c2QAAAAAAAAAAQAAAKFhdmMxAAAAAAAAAAEAAAAAAAAA
 AAAAAAAAAAAAAbABIABIAAAASAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-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
+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
@@ -12879,9 +12936,12 @@ $$a(t) = -g$$
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Initial Velocity: $v_0 = 10$ m/s</li>
-<li>Initial Position:  $x_0 = 0$ m</li>
+<li>Initial Velocity: </li>
 </ul>
+$$v_0 = 10 \text{m/s}$$<ul>
+<li>Initial Position:  </li>
+</ul>
+$$x_0 = 0 \text{m}$$<p></p>
 
 </div>
 </div>
@@ -12934,7 +12994,7 @@ $$x(t)= -\frac{1}{2} g \, t^2 + 10\, t + C$$
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span>
@@ -12948,7 +13008,7 @@ $$x(t)= -\frac{1}{2} g \, t^2 + 10\, t + C$$
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[22]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
@@ -13199,7 +13259,7 @@ LSi+AADUguILAEAtKL4AANSC4gsAQC38f/fqbUVScvipAAAAAElFTkSuQmCC
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ani</span>
@@ -13213,7 +13273,7 @@ LSi+AADUguILAEAtKL4AANSC4gsAQC38f/fqbUVScvipAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[24]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <video width="432.0" height="288.0" controls autoplay loop>
@@ -13416,26 +13476,26 @@ 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
-H0AAAh4sAAEAAAAABjptZGlhAAAAIG1kaGQAAAAAAAAAAAAAAAAADRqxAGjVglXEAAAAAAAtaGRs
+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
-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
+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
@@ -13456,6 +13516,15 @@ AAAAAAAAAC1pbHN0AAAAJal0b28AAAAdZGF0YQAAAAEAAAAATGF2ZjU3LjQxLjEwMA==
 </div>
 </div>
 
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Questions?">Questions?<a class="anchor-link" href="#Questions?">&#182;</a></h2>
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
