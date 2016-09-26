@@ -11827,7 +11827,7 @@ a.anchor-link {
 <section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
@@ -11856,7 +11856,7 @@ a.anchor-link {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[1]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <script>
@@ -11902,20 +11902,13 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Consider:">Consider:<a class="anchor-link" href="#Consider:">&#182;</a></h3><ul>
-<li>2 different masses:</li>
-</ul>
-$$m_a = 5 \, kg $$$$m_b = 10 \, kg $$<h3 id="Get:">Get:<a class="anchor-link" href="#Get:">&#182;</a></h3><ul>
-<li>Equation of Motions:</li>
-</ul>
-$$x(t) = A t^2 + B t + C $$$$y(t) = A t^2 + B t + C $$<ul>
-<li><p>Time of flight</p>
+<h3 id="Consider:">Consider:<a class="anchor-link" href="#Consider:">&#182;</a></h3><p><a href="http://www.glowscript.org/#/user/mmarcano/folder/Public/program/Tension">http://www.glowscript.org/#/user/mmarcano/folder/Public/program/Tension</a></p>
+<ul>
+<li><p>Minimum mass of the ball</p>
 </li>
-<li><p>Range</p>
+<li><p>Net acceleration</p>
 </li>
-<li><p>Angle of impact</p>
-</li>
-<li><p>Y vs X graph</p>
+<li><p>Tension on the string</p>
 </li>
 </ul>
 
@@ -11927,7 +11920,7 @@ $$x(t) = A t^2 + B t + C $$$$y(t) = A t^2 + B t + C $$<ul>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Equations">Equations<a class="anchor-link" href="#Equations">&#182;</a></h2><h3 id="For-X">For X<a class="anchor-link" href="#For-X">&#182;</a></h3>
+<h2 id="Equations">Equations<a class="anchor-link" href="#Equations">&#182;</a></h2><h3 id="Static">Static<a class="anchor-link" href="#Static">&#182;</a></h3>
 </div>
 </div>
 </div><div class="fragment">
@@ -11936,7 +11929,7 @@ $$x(t) = A t^2 + B t + C $$$$y(t) = A t^2 + B t + C $$<ul>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$a_x(t) = \frac{Fx}{m}$$
+$$T - \mu_{static} \, N = 0$$
 </div>
 </div>
 </div></div><div class="fragment">
@@ -11945,16 +11938,7 @@ $$a_x(t) = \frac{Fx}{m}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$v_x(t) = \left (\frac{F}{m}\right )t $$
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$x(t)= \left ( \frac{F}{2m} \right ) t^2  $$
+$$T - mg =0$$
 </div>
 </div>
 </div></div></section><section>
@@ -11963,7 +11947,7 @@ $$x(t)= \left ( \frac{F}{2m} \right ) t^2  $$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Equations">Equations<a class="anchor-link" href="#Equations">&#182;</a></h2><h3 id="For-y">For y<a class="anchor-link" href="#For-y">&#182;</a></h3>
+<h2 id="Equations">Equations<a class="anchor-link" href="#Equations">&#182;</a></h2><h3 id="Kinetic">Kinetic<a class="anchor-link" href="#Kinetic">&#182;</a></h3>
 </div>
 </div>
 </div><div class="fragment">
@@ -11972,7 +11956,7 @@ $$x(t)= \left ( \frac{F}{2m} \right ) t^2  $$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$a_y (t) = -g $$
+$$T - f_k = m_1 a $$
 </div>
 </div>
 </div></div><div class="fragment">
@@ -11981,35 +11965,7 @@ $$a_y (t) = -g $$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$v_y (t) = -g \cdot t   $$
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$y(t) =  \frac{-g}{2} \, t^2  + y_0  $$
-</div>
-</div>
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="How-would-it-look-like?">How would it look like?<a class="anchor-link" href="#How-would-it-look-like?">&#182;</a></h2>
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="http://www.glowscript.org/#/user/mmarcano/folder/Public/program/InclinedPlane">http://www.glowscript.org/#/user/mmarcano/folder/Public/program/InclinedPlane</a></p>
-
+$$mg - T = m_2 a  $$
 </div>
 </div>
 </div></div></section></section><section><section>
