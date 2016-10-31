@@ -11922,21 +11922,255 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li>Postion/Velocity/Acceleration:<ul>
-<li>$\theta \,, \omega \,, \alpha$ [deg/rad]</li>
+<li>$\theta \text{ [rad]} \,, \omega \text{ [rad/s]} \,, \alpha \text{ [rad/}s^2\text{]} $</li>
 </ul>
 </li>
 </ul>
 
 </div>
 </div>
-</div></div></section></section><section><section>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Your-turn:">Your turn:<a class="anchor-link" href="#Your-turn:">&#182;</a></h2><p><img src="energy.png#right" alt="Alt"></p>
-<p><em>Hint: Plug numbers at the end. Work with variables</em></p>
+<ul>
+<li>Forces:<ul>
+<li>$\tau = r \times F$ [N m]</li>
+<li>$\tau = I \alpha$</li>
+<li>$ \sum \tau = dL/dt$</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Conservation Laws:<ul>
+<li>$L = I \omega$ [N m s]</li>
+<li>$ K_R = \frac{1}{2} I \omega ^2$ [kg $m^2/s^2$  ]</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Moment-of-Inertia">Moment of Inertia<a class="anchor-link" href="#Moment-of-Inertia">&#182;</a></h2>
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>$I = \sum_{i} m_i r_i ^2$</li>
+<li>Depends on axis of rotation</li>
+</ul>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Example:">Example:<a class="anchor-link" href="#Example:">&#182;</a></h2><p>Two cylinders of the same</p>
+<p><img src="cyl.png#right" alt="Alt"></p>
+$$I = \frac{1}{2}MR^2$$
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Conceptual-Questions">Conceptual Questions<a class="anchor-link" href="#Conceptual-Questions">&#182;</a></h2><p>Two cylinders of the <strong>same size</strong> (radius) and <strong>mass</strong> roll down an incline, starting from rest. Cylinder A has most of its mass concentrated at the rim, while B has most of its mass concentrated at the center. Which reaches the bottom first?</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>$I = \sum_{i} m_i r_i ^2$</li>
+<li>$I_A > I_B$ </li>
+<li>$v_{B_{cm}} > v_{A_{cm}}$</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Two cylinders of the <strong>same</strong> size (radius) but <strong>different masses</strong> roll down an incline, starting from rest. Cylinder A has a greater mass. Which reaches the bottom first?</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>$F_{g} \propto m $</li>
+<li>$F_{friction} \propto N \propto m $</li>
+<li>$I \propto m$</li>
+<li>$v_{B_{cm}} = v_{A_{cm}}$</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Two cylinders of the <strong>different size</strong> (radius) but <strong>same masses</strong> roll down an incline, starting from rest. Cylinder A has a greater mass. Which reaches the bottom first?</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Acceleration of the Center of Mass is indepent of the Radius and Mass</p>
+<ul>
+<li>$\tau = R f = I \alpha = \frac{1}{2} m R^2 \frac{a}{R}$</li>
+<li>$m g \sin{theta} - f = m a_{cm}$</li>
+<li>$a = R \alpha$</li>
+<li>$a = \frac{2}{3} g \sin{\theta}$</li>
+<li>Is work done by friction on the cylinder?</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Is there work done by friction on the cylinder?</li>
+<li>Is mechanical energy conserved?</li>
+</ul>
+<p>Hint: Think if the friction is static or kinetic.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>$W_{friction} = 0$</li>
+</ul>
+<p>Frictional force is at the rolling constant point, which is always instantaneously at rest. Friction acts through a zero distance and does not do real work.</p>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A sphere and cylinder of <strong>different radii</strong> but <strong>same mass</strong> are released from rest from the same height on a hill and allowed to roll without slipping to the bottom of the hill.</p>
+<ul>
+<li>A) $K_{sphere} > K_{cylinder}$</li>
+<li>B)  $K_{cylinder} > K_{sphere}$</li>
+<li>c) $K_{cylinder} = K_{sphere}$</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>$\sum K = K_{rot} + K_{translation}$</li>
+<li>$I_{sphere} < I_{cylinder}$</li>
+<li>$K_{sphere \, rot} < K_{cylinder \, rot} $</li>
+<li>$K_{sphere \, translation} > K_{cylinder\, trans}$</li>
+<li>$\sum K_{sphere} = \sum K_{cylinder}$</li>
+<li>$m g h = \frac{1}{2} m v^2 + \frac{1}{2} I \omega^2 = \frac{1}{2} I (\frac{v}{R})^2$</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Rank-from-largest-to-smalles">Rank from largest to smalles<a class="anchor-link" href="#Rank-from-largest-to-smalles">&#182;</a></h2><p><img src="t.png#right" alt="Alt"></p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ \tau_e > \tau_a = \tau_d > \tau_b > \tau c$$
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Torque:-Solving-Strategy">Torque: Solving Strategy<a class="anchor-link" href="#Torque:-Solving-Strategy">&#182;</a></h2><ul>
+<li>Choose point to analyze</li>
+<li>Choose sign convention</li>
+<li>Calculate net torque</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Your-turn:">Your turn:<a class="anchor-link" href="#Your-turn:">&#182;</a></h2><p><img src="torque.png#right" alt="Alt"></p>
+<p><em>Hint: $\tau = r \times F$</em></p>
 
 </div>
 </div>
