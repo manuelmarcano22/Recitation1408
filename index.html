@@ -11827,7 +11827,7 @@ a.anchor-link {
 <section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
@@ -11856,7 +11856,7 @@ a.anchor-link {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[1]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <script>
@@ -11892,6 +11892,7 @@ a.anchor-link {
 </li>
 <li><p>Office hours: Friday 1-2:30 Room 028</p>
 </li>
+<li><a href="http://manuelpm.me/Recitation1408/#/">http://manuelpm.me/Recitation1408/#/</a></li>
 </ul>
 
 </div>
@@ -11902,7 +11903,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Rotational-Dynamics">Rotational Dynamics<a class="anchor-link" href="#Rotational-Dynamics">&#182;</a></h2>
+<h2 id="Static-Equilibrium">Static Equilibrium<a class="anchor-link" href="#Static-Equilibrium">&#182;</a></h2>
 </div>
 </div>
 </div><div class="fragment">
@@ -11911,7 +11912,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Motion-Variables">Motion Variables<a class="anchor-link" href="#Motion-Variables">&#182;</a></h3>
+<h3 id="What-is-the-condition-for-Equilibrium?">What is the condition for Equilibrium?<a class="anchor-link" href="#What-is-the-condition-for-Equilibrium?">&#182;</a></h3>
 </div>
 </div>
 </div></div><div class="fragment">
@@ -11921,8 +11922,9 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Postion/Velocity/Acceleration:<ul>
-<li>$\theta \text{ [rad]} \,, \omega \text{ [rad/s]} \,, \alpha \text{ [rad/}s^2\text{]} $</li>
+<li>Acceleration is zero:<ul>
+<li>$\vec a = 0 \, ,\, \frac{d \vec v}{dt} =  0$</li>
+<li>$ \vec \alpha = 0 \, , \, \frac{d \vec \omega}{dt} = 0$</li>
 </ul>
 </li>
 </ul>
@@ -11935,15 +11937,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Forces:<ul>
-<li>$\tau = r \times F$ [N m]</li>
-<li>$\tau = I \alpha$</li>
-<li>$ \sum \tau = dL/dt$</li>
-</ul>
-</li>
-</ul>
-
+<h4 id="What-does-it-implies-about-torques-and-forces?">What does it implies about torques and forces?<a class="anchor-link" href="#What-does-it-implies-about-torques-and-forces?">&#182;</a></h4>
 </div>
 </div>
 </div></div><div class="fragment">
@@ -11952,136 +11946,46 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+$$ \sum \vec F = 0$$$$ \sum \vec \tau =0 $$
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Types-of-Equilibrium">Types of Equilibrium<a class="anchor-link" href="#Types-of-Equilibrium">&#182;</a></h2>
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Conservation Laws:<ul>
-<li>$L = I \omega$ [N m s]</li>
-<li>$ K_R = \frac{1}{2} I \omega ^2$ [kg $m^2/s^2$  ]</li>
+<li>Static:<ul>
+<li>$\vec v_{CM}  =  0$</li>
+<li>$ \vec \omega  = 0$</li>
+</ul>
+</li>
+<li>Dynamic:<ul>
+<li>$\vec v_{CM}  \neq  0$</li>
+<li>$ \vec \omega  \neq 0$</li>
 </ul>
 </li>
 </ul>
 
 </div>
 </div>
-</div></div></section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Moment-of-Inertia">Moment of Inertia<a class="anchor-link" href="#Moment-of-Inertia">&#182;</a></h2>
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>$I = \sum_{i} m_i r_i ^2$</li>
-<li>Depends on axis of rotation</li>
-</ul>
-
-</div>
-</div>
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Example:">Example:<a class="anchor-link" href="#Example:">&#182;</a></h2><p>Two cylinders of the same</p>
-<p><img src="cyl.png#right" alt="Alt"></p>
-$$I_z = \frac{1}{2}MR^2$$
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Conceptual-Questions">Conceptual Questions<a class="anchor-link" href="#Conceptual-Questions">&#182;</a></h2><p>Two cylinders of the <strong>same size</strong> (radius) and <strong>mass</strong> roll down an incline, starting from rest. Cylinder A has most of its mass concentrated at the rim, while B has most of its mass concentrated at the center. Which reaches the bottom first?</p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>$I = \sum_{i} m_i r_i ^2$</li>
-<li>$I_A > I_B$ </li>
-<li>$v_{B_{cm}} > v_{A_{cm}}$</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Two cylinders of the <strong>same</strong> size (radius) but <strong>different masses</strong> roll down an incline, starting from rest. Cylinder A has a greater mass. Which reaches the bottom first?</p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>$F_{g} \propto m $</li>
-<li>$F_{friction} \propto N \propto m $</li>
-<li>$I \propto m$</li>
-<li>$v_{B_{cm}} = v_{A_{cm}}$</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Two cylinders of the <strong>different size</strong> (radius) but <strong>same masses</strong> roll down an incline, starting from rest. Cylinder A has a greater mass. Which reaches the bottom first?</p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Acceleration of the Center of Mass is indepent of the Radius and Mass</p>
-<ul>
-<li>$\tau = R f = I \alpha = \frac{1}{2} m R^2 \frac{a}{R}$</li>
-<li>$m g \sin{theta} - f = m a_{cm}$</li>
-<li>$a = R \alpha$</li>
-<li>$a = \frac{2}{3} g \sin{\theta}$</li>
-<li>Is work done by friction on the cylinder?</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Is there work done by friction on the cylinder?</li>
-<li>Is mechanical energy conserved?</li>
-</ul>
-<p>Hint: Think if the friction is static or kinetic.</p>
+<h2 id="Conceptual-Question">Conceptual Question<a class="anchor-link" href="#Conceptual-Question">&#182;</a></h2><p>An object thrown into the air stops at the highest point in its path ($\vec v = 0$). Is it in equilibrium at this point? Explain</p>
 
 </div>
 </div>
@@ -12092,9 +11996,9 @@ $$I_z = \frac{1}{2}MR^2$$
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>$W_{friction} = 0$</li>
+<li>$\vec a \neq 0$</li>
+<li>$\sum \vec F \neq 0$</li>
 </ul>
-<p>Frictional force is at the rolling constant point, which is always instantaneously at rest. Friction acts through a zero distance and does not do real work.</p>
 
 </div>
 </div>
@@ -12104,46 +12008,8 @@ $$I_z = \frac{1}{2}MR^2$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>A sphere and cylinder of <strong>different radii</strong> but <strong>same mass</strong> are released from rest from the same height on a hill and allowed to roll without slipping to the bottom of the hill.</p>
-<ul>
-<li>A) $K_{sphere} > K_{cylinder}$</li>
-<li>B)  $K_{cylinder} > K_{sphere}$</li>
-<li>c) $K_{cylinder} = K_{sphere}$</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>$\sum K = K_{rot} + K_{translation}$</li>
-<li>$I_{sphere} < I_{cylinder}$</li>
-<li>$K_{sphere \, rot} < K_{cylinder \, rot} $</li>
-<li>$K_{sphere \, translation} > K_{cylinder\, trans}$</li>
-<li>$\sum K_{sphere} = \sum K_{cylinder}$</li>
-<li>$m g h = \frac{1}{2} m v^2 + \frac{1}{2} I \omega^2 = \frac{1}{2} I (\frac{v}{R})^2$</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Two buckets spin around in a horizontal circle on frictionless bearings. Suddenly, it starts to rain.</p>
-<p>What happens next?</p>
-<ul>
-<li>A) The buckets continue to rotate at constant angular velocity </li>
-<li>B) The buckets slow down</li>
-<li>C) The buckets speed up because the potential energy of the rain is transformed into kinetic energy</li>
-</ul>
-<p><img src="bucket.png#right" alt="Alt"></p>
+<p>A very light object (e.g. piece of paper) is dropped from a great height. Does it reach a state of equilibrium?</p>
+<p><em>Hint: Don't ignore air drag</em></p>
 
 </div>
 </div>
@@ -12153,17 +12019,17 @@ $$I_z = \frac{1}{2}MR^2$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Hint: Think conservation of angular momentum</p>
+<p>When the air resistance equals the object's weight and the object can no longer accelerate. It reaches a state of <strong>dynamic equilibrium</strong>.</p>
 
 </div>
 </div>
-</div></div></section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Rank-from-largest-to-smalles">Rank from largest to smalles<a class="anchor-link" href="#Rank-from-largest-to-smalles">&#182;</a></h2><p><img src="t.png#right" alt="Alt"></p>
+<h2 id="Your-turn:">Your turn:<a class="anchor-link" href="#Your-turn:">&#182;</a></h2><p><img src="stat.png#right" alt="Alt"></p>
 
 </div>
 </div>
@@ -12173,7 +12039,50 @@ $$I_z = \frac{1}{2}MR^2$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$ \tau_e > \tau_a = \tau_d > \tau_b > \tau c$$
+<p>Extra:</p>
+<ul>
+<li>Imagine that the rope breaks, at what speed (m/s) does the rod hits the wall?</li>
+<li>In how many seconds?</li>
+</ul>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Free-body-diagram">Free body diagram<a class="anchor-link" href="#Free-body-diagram">&#182;</a></h2>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="fb.png#right" alt="Alt"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Sum-of-the-forces">Sum of the forces<a class="anchor-link" href="#Sum-of-the-forces">&#182;</a></h3>$$\sum \vec F_x = - \vec T_x + \vec N = m \vec a_x = 0 $$$$ \sum \vec F_y = - m \vec g + \vec T_y + \vec F_{hy} = 0$$
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Two Equations, three unknowns</strong></p>
+
 </div>
 </div>
 </div></div></section><section>
@@ -12182,26 +12091,52 @@ $$ \tau_e > \tau_a = \tau_d > \tau_b > \tau c$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Torque:-Solving-Strategy">Torque: Solving Strategy<a class="anchor-link" href="#Torque:-Solving-Strategy">&#182;</a></h2><ul>
-<li>Choose point to analyze</li>
-<li>Choose sign convention</li>
-<li>Calculate net torque</li>
-</ul>
-
+<h3 id="Torque">Torque<a class="anchor-link" href="#Torque">&#182;</a></h3>
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Your-turn:">Your turn:<a class="anchor-link" href="#Your-turn:">&#182;</a></h2><p><img src="torque.png#right" alt="Alt"></p>
-<p><em>Hint: $\tau = r \times F$</em></p>
+<ul>
+<li>Choose pivot</li>
+<li>Choose sign</li>
+<li>Sign convention: + counterclockwise</li>
+</ul>
 
 </div>
 </div>
-</div></section></section><section><section>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="tor.png#right" alt="Alt"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Three-Eqs,-three-unknowns">Three Eqs, three unknowns<a class="anchor-link" href="#Three-Eqs,-three-unknowns">&#182;</a></h3>$$\sum \vec F_x = - \vec T \cos{35^\circ} + \vec N =  0 $$$$ \sum \vec F_y = - m \vec g + \vec T \sin{35^\circ} + \vec F_{hy} = 0$$$$  \sum | \, \tau \,  | = |\, T \, | \, \, \,  |\, l \, | \sin{35^\circ}  - \frac{l}{2} m g = 0$$
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ m\to 35 \text{ kg}, \text{ N}\to 245 \text{ N} , \text{ F}\to 172 \text{N}$$
+</div>
+</div>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
