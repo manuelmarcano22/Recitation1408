@@ -9,7 +9,7 @@ cd ..
 mkdir -p /tmp/workspace
 cp -r * /tmp/workspace/
 git add -A .
-git commit -m "Update"
+git commit -m ":octocat: Update"
 git checkout -B gh-pages
 cp -r /tmp/workspace/* .
 git add -A .
