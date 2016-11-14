@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 jupyter nbconvert slides.ipynb --to slides  --reveal-prefix ./reveal.js/
 mv slides.slides.html  index.html
 cd ./reveal.js
